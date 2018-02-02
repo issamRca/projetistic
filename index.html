@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Projet SDN</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="css/gmlmap.css" rel="stylesheet" type="text/css">
+      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+      <script type="text/javascript" src='js/handlebars-v1.3.0.js'></script>   
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/jquery.format.js"></script>
+      <script type="text/javascript" src='js/gmlmap.js'></script>
+
+   </head>
+   <body>
+      <!-- Begin page content -->
+      <div class="container">
+         <div class="page-header">
+            <h1>projet SDN</h1>
+         </div>
+         <div id="alert-danger" class="alert alert-danger alert-dismissible" role="alert">
+              <button id="close-alert-danger" type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <div id="content-alert-danger"></div>
+         </div>
+           
+            
+
+
+         <div class="row">
+            <div id="map-canvas" style="width: 100%; height: 500px;"></div>
+
+
+
+                  
+         <div id="routes" class="row">
+            <div class="col-md-12">
+               <div class="panel panel-info">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">Routes</h3>
+                  </div>
+                  <div id="directions-panel" class="panel-body">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
